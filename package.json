@@ -1,0 +1,20 @@
+{
+  "name": "shanex-imperion-bot",
+  "version": "1.0.0",
+  "description": "SHANEX IMPERION BOT \u2014 multilingual WhatsApp automation starter",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js && node --check lib/i18n.js && node --check lib/store.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.18",
+    "dotenv": "^16.4.7",
+    "pino": "^9.6.0"
+  }
+}
